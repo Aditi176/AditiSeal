@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Me</title>
+
+	<!-- meta tag- for making the website responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=0.5">
+
+	<!-- style sheets link -->
+	<link rel="stylesheet" href="style1.css">
+
+	<!-- Js file link -->
+	<script src="script.js"></script>
+
+	<!-- Favicon site icon-->
+	<link rel="icon" href="imgs/Aditi_favicon/favicon-32x32.png">
+
+	<!-- bootstrap grid link -->
+	<link rel="stylesheet" href="bootstrap-grid.min.css">
+
+	<!-- Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Chewy|Galada|Leckerli+One|Lobster|Permanent+Marker|Roboto+Mono&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide|Nunito&display=swap" rel="stylesheet">
+
+
+	<!-- Fevicon -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+	<!-- nav desktop -->
+	<nav>
+		<ul>
+			<li class="AS"><a href="index.html"><img src="imgs/Aditi_favicon/favicon-32x32(1).png" alt="" class="icon"> &nbsp /Aditi Seal/</a></li>
+			<li><a href="about.html">About me</a></li>
+			<li><a href="skills.html">Skills</a></li>
+			<li><a href="projects.html">Projects</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!-- Contact -->
+	<div class="contact">
+		<div class="container">
+			<h1>CONTACT__________</h1>
+			
+			<div class="row">
+				<div class="col-md-9">
+					<form action="http://localhost/wd_files/AditiPortfolio/php_database.php" id="contact_form" method="post">
+						<input type="text" id="name" name="name" placeholder="Name"required><br>
+						<input type="email" id="email" name="email" placeholder="Email"required><br>
+						<input type="text" id="number" name="mobile" placeholder="Mobile" pattern="^[0,7,9,6][0-9]{9}$" required><br>
+						<textarea id="comment" name="message" form="contact_form" placeholder="Message.."required></textarea><br>
+						<div class="buttons">
+							<input type="submit" value="Submit" class="submit" onclick="check_validation()">
+							<input type="reset" value="Reset" id="reset" class="reset">
+						</div>
+					</form>
+				</div>
+				<div class="col-md-3">
+					<ul>
+						<li><a href="https://www.linkedin.com/in/aditi-seal-92a164158/" target="blank"><i class="fa fa-linkedin-square" ></i> &nbsp LinkedIn</a></li>
+						<li><a href="https://github.com/Aditi176" target="blank"><i class="fa fa-github" ></i> &nbsp GitHub</a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100017392380906" target="_blank"><i class="fa fa-facebook-square" ></i> &nbsp Facebook</a></li>
+						<li><a href="https://www.instagram.com/nfaditi801/?hl=en" target="blank"><i class="fa fa-instagram"></i> &nbsp Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<div class="footer">
+		<p>&copy2020-Aditi Seal | All Rights Reserved | Developed by Aditi Seal</p>
+	</div>
+	
+	
+
+</body>
+</html>
